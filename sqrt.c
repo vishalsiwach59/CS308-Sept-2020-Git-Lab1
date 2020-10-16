@@ -14,6 +14,10 @@ int main(int argc, char* argv[]) {
 	}
 
 	int input = atoi(argv[1]);
+	if(input<0){
+		printf("Negative no. - invalid for sq root\n");
+		exit(-1);
+	}
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
 
 	printf("End of Program.Exiting\n");
