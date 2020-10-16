@@ -15,13 +15,14 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
 	if(input<0){
-		printf("DEBUG: Sqrt of %d is %fi\n",input,sqrt(-1*input));
+		printf("NEGSUPPORT: Sqrt of %d is %fi\n",input,sqrt(-1*input));
 	}
 	else{
-		printf("DEBUG:Sqrt of %d is %f\n",input,sqrt(input));
+		printf("NEGSUPPORT:Sqrt of %d is %f\n",input,sqrt(input));
 	}
 
-	printf("DEBUG:End of Program.Exiting\n");
+	printf("NEGSUPPORT:End of Program.Exiting\n");
+
 	return(0);
 
 } // end main
